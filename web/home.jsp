@@ -17,7 +17,7 @@
       <%
             Usuario usu=new Usuario();
             usu = (Usuario) session.getAttribute("user");
-            
+            out.print("holi");
          %>
 	
 
